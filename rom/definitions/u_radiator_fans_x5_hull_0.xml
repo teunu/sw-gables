@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition name="Inline Radiator 3x5 [u]" category="9" type="24" mass="25" value="700" flags="16384" mesh_data_name="teunu/gables/inline_radiator_x5_small.mesh" mesh_0_name="teunu/gables/inline_radiator_fan_small.mesh" mesh_1_name="teunu/gables/inline_radiator_fan_small.mesh" constraint_axis="1" max_motor_force="100" max_motor_speed="10" cable_radius="16" cable_length="-431602080" seat_health_per_sec="1" buoy_radius="1" buoy_factor="1" buoy_force="100" force_emitter_max_force="1000" force_emitter_max_vector="1" engine_max_force="1000" wheel_radius="0.25" button_type="1" light_intensity="1" light_range="1" light_ies_map="graphics/ies/ies_default.txtr" light_fov="1" door_lower_limit="-1" door_upper_limit="1" dynamic_max_rotation="3.141593" magnet_force="1" pump_pressure="0.01" water_component_type="9">
+	<sfx_datas/>
+	<surfaces>
+		<surface orientation="2">
+			<position x="-1" z="1"/>
+		</surface>
+		<surface orientation="2">
+			<position x="-1"/>
+		</surface>
+		<surface orientation="2">
+			<position x="-1" z="-1"/>
+		</surface>
+		<surface orientation="2">
+			<position x="-1" z="-2"/>
+		</surface>
+		<surface orientation="2">
+			<position z="-2"/>
+		</surface>
+		<surface orientation="2">
+			<position/>
+		</surface>
+		<surface orientation="2">
+			<position z="-1"/>
+		</surface>
+		<surface orientation="2">
+			<position z="1"/>
+		</surface>
+		<surface orientation="2">
+			<position x="-1" z="2"/>
+		</surface>
+		<surface orientation="2">
+			<position z="2"/>
+		</surface>
+		<surface orientation="2">
+			<position x="1" z="2"/>
+		</surface>
+		<surface orientation="2">
+			<position x="1" z="1"/>
+		</surface>
+		<surface orientation="2">
+			<position x="1"/>
+		</surface>
+		<surface orientation="2">
+			<position x="1" z="-1"/>
+		</surface>
+		<surface orientation="2">
+			<position x="1" z="-2"/>
+		</surface>
+		<surface orientation="3">
+			<position x="-1" z="-2"/>
+		</surface>
+		<surface orientation="3">
+			<position z="-2"/>
+		</surface>
+		<surface orientation="3">
+			<position x="1" z="-2"/>
+		</surface>
+		<surface orientation="3">
+			<position x="1" z="-1"/>
+		</surface>
+		<surface orientation="3">
+			<position z="-1"/>
+		</surface>
+		<surface orientation="3">
+			<position x="-1" z="-1"/>
+		</surface>
+		<surface orientation="3">
+			<position x="-1"/>
+		</surface>
+		<surface orientation="3">
+			<position/>
+		</surface>
+		<surface orientation="3">
+			<position x="1"/>
+		</surface>
+		<surface orientation="3">
+			<position x="1" z="1"/>
+		</surface>
+		<surface orientation="3">
+			<position z="1"/>
+		</surface>
+		<surface orientation="3">
+			<position x="-1" z="1"/>
+		</surface>
+		<surface orientation="3">
+			<position x="-1" z="2"/>
+		</surface>
+		<surface orientation="3">
+			<position z="2"/>
+		</surface>
+		<surface orientation="3">
+			<position x="1" z="2"/>
+		</surface>
+		<surface orientation="4" shape="3" trans_type="2">
+			<position x="1" z="2"/>
+		</surface>
+		<surface orientation="4">
+			<position z="2"/>
+		</surface>
+		<surface orientation="4">
+			<position x="-1" z="2"/>
+		</surface>
+		<surface orientation="5">
+			<position x="-1" z="-2"/>
+		</surface>
+		<surface orientation="5">
+			<position z="-2"/>
+		</surface>
+		<surface orientation="5" shape="3" trans_type="2">
+			<position x="1" z="-2"/>
+		</surface>
+		<surface orientation="1">
+			<position x="-1" z="2"/>
+		</surface>
+		<surface orientation="1">
+			<position x="-1" z="1"/>
+		</surface>
+		<surface orientation="1">
+			<position x="-1"/>
+		</surface>
+		<surface orientation="1">
+			<position x="-1" z="-1"/>
+		</surface>
+		<surface orientation="1">
+			<position x="-1" z="-2"/>
+		</surface>
+		<surface>
+			<position x="1" z="-2"/>
+		</surface>
+		<surface>
+			<position x="1" z="-1"/>
+		</surface>
+		<surface>
+			<position x="1"/>
+		</surface>
+		<surface>
+			<position x="1" z="1"/>
+		</surface>
+		<surface>
+			<position x="1" z="2"/>
+		</surface>
+	</surfaces>
+	<buoyancy_surfaces/>
+	<logic_nodes>
+		<logic_node orientation="5" label="Fluid A" mode="1" type="3" description="Fluid Connection.">
+			<position x="1" z="-2"/>
+		</logic_node>
+		<logic_node orientation="4" label="Fluid B" mode="1" type="3" description="Fluid Connection.">
+			<position x="1" z="2"/>
+		</logic_node>
+		<logic_node label="Electric" type="4">
+			<position/>
+		</logic_node>
+		<logic_node label="Fans On/Off" mode="1">
+			<position x="1"/>
+		</logic_node>
+		<logic_node label="Temperature" type="1">
+			<position x="1" z="1"/>
+		</logic_node>
+	</logic_nodes>
+	<couplings/>
+	<voxels>
+		<voxel flags="1">
+			<position/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1" z="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1" z="2"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel>
+			<position z="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position z="2"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1" z="1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1" z="2"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1" z="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="-1" z="-2"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel>
+			<position z="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position z="-2"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1" z="-1"/>
+			<physics_shape_rotation/>
+		</voxel>
+		<voxel flags="1">
+			<position x="1" z="-2"/>
+			<physics_shape_rotation/>
+		</voxel>
+	</voxels>
+	<voxel_min x="-1" z="-2"/>
+	<voxel_max x="1" z="2"/>
+	<voxel_physics_min x="-1" z="-2"/>
+	<voxel_physics_max x="1" z="2"/>
+	<bb_physics_min/>
+	<bb_physics_max/>
+	<compartment_sample_pos/>
+	<constraint_pos_parent/>
+	<constraint_pos_child/>
+	<voxel_location_child/>
+	<seat_offset/>
+	<seat_front/>
+	<seat_up/>
+	<seat_camera/>
+	<seat_render/>
+	<force_dir/>
+	<light_position/>
+	<light_color x="1" y="1" z="1"/>
+	<light_forward/>
+	<door_size x="1" y="1" z="1"/>
+	<door_normal/>
+	<door_side/>
+	<door_up/>
+	<door_base_pos/>
+	<dynamic_body_position/>
+	<dynamic_rotation_axes y="1"/>
+	<dynamic_side_axis x="1"/>
+	<magnet_offset/>
+	<connector_axis/>
+	<connector_up/>
+	<tooltip_properties description="Fluid inside the cooler will lose temperature, supplying electric for the fan will increase the rate of exchange." short_description="Radiator type cooler for fluid."/>
+	<jet_engine_connections_prev/>
+	<jet_engine_connections_next/>
+	<particle_direction/>
+	<particle_offset/>
+	<particle_bounds/>
+	<rope_hook_offset/>
+</definition>
+
